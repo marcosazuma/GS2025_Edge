@@ -8,7 +8,7 @@ Marcos Azuma - RM559883
 
 Descrição do Projeto:
 
-O SIMURB é uma solução que visa monitorar em tempo real o nível de água em áreas de risco, utilizando sensores conectados a um microcontrolador Arduino Uno.
+O SIMURB (Simulador Urbano de Riscos de Enchentes) é uma solução que visa monitorar em tempo real o nível de água em áreas de risco, utilizando sensores conectados a um microcontrolador Arduino Uno.
 A proposta é criar um sistema que, através de processamento local, seja capaz de identificar situações de risco de enchente e alertar autoridades e a população.
 O sistema atua de forma preventiva, processando dados diretamente no Arduino, acendendo LEDs indicadores de risco e enviando informações para um broker MQTT, simulando a comunicação para um dashboard de monitoramento.
 
@@ -49,7 +49,7 @@ Funcionamento do Sistema:
     - LED Vermelho + Buzzer: Alerta de enchente.
 4. O Arduino simula o envio dos dados via porta Serial, que pode ser lida por um dashboard.
 
-Link da simulação:
+Link da simulação: https://wokwi.com/projects/432931740007068673
 
 Como executar o projeto:
 
@@ -57,7 +57,6 @@ Como executar o projeto:
 2. Observe a simulação dos sensores de nível de água.
 3. Verifique a sinalização dos LEDs e do Buzzer de acordo com os valores medidos.
 4. Acompanhe os dados sendo enviados pela porta Serial.
-5. 
 
 
 
